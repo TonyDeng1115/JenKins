@@ -1,0 +1,9 @@
+String interpolation
+
+def username = 'Jenkins'
+echo 'Hello Mr. ${username}'      ----This won't take effective
+echo "I said, Hello Mr. ${username}"
+
+Would result in:
+Hello Mr. ${username}
+I said, Hello Mr. Jenkins
